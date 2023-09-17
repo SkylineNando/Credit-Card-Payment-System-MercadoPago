@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento com Mercado Pago</title>
+</head>
+<body>
+    <h1>Formulário de Pagamento</h1>
+    <form action="processar_pagamento.php" method="post">
+        <label for="amount">Valor:</label>
+        <input type="text" name="amount" required><br>
+
+        <label for="description">Descrição:</label>
+        <input type="text" name="description" required><br>
+
+        <input type="submit" value="Efetuar Pagamento">
+    </form>
+</body>
+</html>
